@@ -1,6 +1,8 @@
 ---
 
-Inicializar repositorio
+GIT
+
+# Inicializar repositorio
 
 ```
 git init
@@ -36,4 +38,28 @@ git checkout -- index.html
 
 ```
 git diff <filename>
+```
+
+```
+git commit -m <message>
+```
+
+# Branch
+
+Lista ramas
+
+```
+git branch
+```
+
+Crear rama
+
+```
+git branch <name>
+```
+
+Cambiar de rama
+
+```
+git checkout <name>
 ```
